@@ -1,0 +1,2 @@
+name,region,country,temperature,weather_decsription,wind_speed,precip,pressure,cloudcover,sunrise,sunset,moonrise,moonset
+"Mumbai","Maharashtra","India",27,"Haze,Rain shower",20,4.1,1003,75,"06:24 AM","06:48 PM","7:00 PM","05:00 AM"

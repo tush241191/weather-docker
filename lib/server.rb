@@ -5,6 +5,16 @@ get '/' do
     erb :index
 end
 
+get '/data.json' do
+    content_type :json
+    {entries: DB[:forecasts].all }.to_json
+end
+
+post '/load' do
+    Loader.new.load!
+    redirect "/data.json"
+end
+
 __END__
 @@ layout 
 <html lang="en">
