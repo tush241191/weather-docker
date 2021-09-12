@@ -11,3 +11,5 @@ gem "sinatra", "~> 2.1"
 gem "puma", "~> 5.4"
 
 gem "sequel", "~> 5.48"
+
+gem "sqlite3", "~> 1.4"
